@@ -1,16 +1,34 @@
-.out{
-    width: 250px;
+.out {
+    width: min(20%, auto);
     border: 1px solid black;
-    display: grid;
-    align-self:center;
+    align-self: center;
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
-.page{
+
+table{
+    width: 70%;
+}
+
+.out_button {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.page {
+    top: 22px;
+    right: 0;
+    width: 30%;
+    position: absolute;
     visibility: hidden;
-    width: 400px;
     border: 1px solid black;
-    float: right;
-    display: grid;
-    align-self:center;
+    margin-top: 10px;
+    align-self: center;
     text-align: center;
 }
