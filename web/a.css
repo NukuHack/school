@@ -1,0 +1,16 @@
+.out{
+    width: 250px;
+    border: 1px solid black;
+    display: grid;
+    align-self:center;
+    text-align: center;
+}
+.page{
+    visibility: hidden;
+    width: 400px;
+    border: 1px solid black;
+    float: right;
+    display: grid;
+    align-self:center;
+    text-align: center;
+}
