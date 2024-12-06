@@ -14,6 +14,8 @@ table{
 .out_button {
     width: 100%;
     height: 100%;
+    padding-bottom: 17px;
+    padding-top: 17px;
     align-self: center;
     text-align: center;
     justify-content: center;
@@ -25,6 +27,7 @@ table{
     top: 22px;
     right: 0;
     width: 30%;
+    padding-bottom: 10px;
     position: absolute;
     visibility: hidden;
     border: 1px solid black;
