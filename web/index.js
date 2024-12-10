@@ -17,9 +17,9 @@ xhttp.onreadystatechange = function () {
 }
 
 xhttp.open('GET', 'https://jsonplaceholder.typicode.com/users', true);
-
+/*
 xhttp.send();
-
+*/
 
 function display(Data) {
     let table_help = "<table><tbody>";
@@ -73,3 +73,6 @@ function Open_Page(num) {
 function Close_Page() {
     page.style.visibility = "hidden";
 }
+
+
+
