@@ -1,2 +1,2 @@
-# school
-school_stuff
+# School
+school stuff
