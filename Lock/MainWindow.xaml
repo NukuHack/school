@@ -1,0 +1,42 @@
+﻿<Window x:Class="Lock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="592">
+    <Grid Background="Gray">
+        <WrapPanel HorizontalAlignment="Left" PreviewMouseDown="WrapPanel_PreviewMouseDown" Height="364" Margin="10,244,0,0" VerticalAlignment="Top" Width="270"
+                   Background="LightGray">
+            <Button Content="1" Width="70" Height="70" Margin="10"/>
+            <Button Content="2" Width="70" Height="70" Margin="10"/>
+            <Button Content="3" Width="70" Height="70" Margin="10"/>
+            <Button Content="4" Width="70" Height="70" Margin="10"/>
+            <Button Content="5" Width="70" Height="70" Margin="10"/>
+            <Button Content="6" Width="70" Height="70" Margin="10"/>
+            <Button Content="7" Width="70" Height="70" Margin="10"/>
+            <Button Content="8" Width="70" Height="70" Margin="10"/>
+            <Button Content="9" Width="70" Height="70" Margin="10"/>
+            <Button Content="DEL" Width="70" Height="70" Margin="10"/>
+            <Button Content="0" Width="70" Height="70" Margin="10"/>
+            <Button Content="Enter" Width="70" Height="70" Margin="10"/>
+        </WrapPanel>
+        <TextBox
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Width="226"
+            Height="96"
+            Margin="0,58,0,0"
+            IsReadOnly="True"
+            TextWrapping="Wrap"
+            Text=""
+            x:Name="nums"
+            TextAlignment="Center"
+            VerticalContentAlignment="Center" Background="#FF09282B" Foreground="#FF61E4AB" FontSize="72" />
+        <ListBox x:Name="answer" HorizontalAlignment="Left" Height="321" Margin="362,244,0,0" VerticalAlignment="Top" Width="188" FontSize="24"/>
+        <ListBox HorizontalAlignment="Left" Height="54" Margin="362,172,0,0" VerticalAlignment="Top" Width="99" FontSize="9" x:Name="help"/>
+        <Button Content="Reset" Click="reset" HorizontalAlignment="Left" Margin="315,576,0,0" VerticalAlignment="Top" Height="32" Width="94"/>
+
+    </Grid>
+</Window>
